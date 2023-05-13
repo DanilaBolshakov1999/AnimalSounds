@@ -9,11 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var animalVoiceLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func UIButtonCat(_ sender: Any) {
+        animalVoiceLabel.text = "Meme"
+        animalVoiceLabel.textColor = .blue
+    }
+    
+    @IBAction func UIButtonDog(_ sender: Any) {
+        animalVoiceLabel.text = "Woof"
+        animalVoiceLabel.textColor = .brown
+    }
+    
+    @IBAction func UIBiitonCow(_ sender: Any) {
+        animalVoiceLabel.text = "MuMu"
+        animalVoiceLabel.textColor = .darkGray
+    }
 }
 
