@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,14 +13,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimalSounds" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIButton">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="s29-Kt-cZt">
-                                <rect key="frame" x="54" y="220" width="285" height="212.66666666666663"/>
+                                <rect key="frame" x="52.666666666666657" y="216" width="285" height="212.66666666666663"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Animal Sounds" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bF4-lO-ube">
-                                        <rect key="frame" x="66.333333333333329" y="0.0" width="152.66666666666669" height="30.666666666666668"/>
+                                        <rect key="frame" x="65.999999999999986" y="0.0" width="152.66666666666663" height="30.666666666666668"/>
                                         <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -55,13 +55,13 @@
                                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="71"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="UIBiitonCow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="90A-Av-1Av"/>
+                                                    <action selector="UIButtonCow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AhH-bf-M2j"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap of animal" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGc-eB-Fi4">
-                                        <rect key="frame" x="67.000000000000014" y="183.66666666666669" width="151.33333333333337" height="29"/>
+                                        <rect key="frame" x="66.666666666666643" y="183.66666666666669" width="151.33333333333337" height="29"/>
                                         <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
