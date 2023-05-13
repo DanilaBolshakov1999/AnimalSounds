@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4484C9992A1008CE0074DA9B /* dog-bark-15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4484C9982A1008CE0074DA9B /* dog-bark-15.mp3 */; };
 		44B6B1582A0C59AC004A5E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6B1572A0C59AC004A5E42 /* AppDelegate.swift */; };
 		44B6B15A2A0C59AC004A5E42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6B1592A0C59AC004A5E42 /* SceneDelegate.swift */; };
 		44B6B15C2A0C59AC004A5E42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6B15B2A0C59AC004A5E42 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4484C9982A1008CE0074DA9B /* dog-bark-15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dog-bark-15.mp3"; sourceTree = "<group>"; };
 		44B6B1542A0C59AC004A5E42 /* AnimalSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B6B1572A0C59AC004A5E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B6B1592A0C59AC004A5E42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				44B6B1592A0C59AC004A5E42 /* SceneDelegate.swift */,
 				44B6B15B2A0C59AC004A5E42 /* ViewController.swift */,
 				44B6B15D2A0C59AC004A5E42 /* Main.storyboard */,
+				4484C9982A1008CE0074DA9B /* dog-bark-15.mp3 */,
 				44B6B1602A0C59AE004A5E42 /* Assets.xcassets */,
 				44B6B1622A0C59AE004A5E42 /* LaunchScreen.storyboard */,
 				44B6B1652A0C59AE004A5E42 /* Info.plist */,
@@ -128,6 +131,7 @@
 				44B6B1642A0C59AE004A5E42 /* LaunchScreen.storyboard in Resources */,
 				44B6B1612A0C59AE004A5E42 /* Assets.xcassets in Resources */,
 				44B6B15F2A0C59AC004A5E42 /* Main.storyboard in Resources */,
+				4484C9992A1008CE0074DA9B /* dog-bark-15.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

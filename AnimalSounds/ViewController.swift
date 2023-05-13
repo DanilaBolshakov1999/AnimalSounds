@@ -6,27 +6,36 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    var player = AVAudioPlayer()
     
     @IBOutlet weak var animalVoiceLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        do { //делаем это
+            if let audioPath = Bundle.main.path(forResource: "dog-bark-15", ofType: "mp3") {
+                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath))
+            }
+        } catch { //если нет
+            print("Error")
+        }
+        self.player.play()
     }
     
-    @IBAction func UIButtonCat(_ sender: Any) {
+    func UIButtonCat(_ sender: Any) {
         animalVoiceLabel.text = "Meme"
         animalVoiceLabel.textColor = .blue
     }
     
-    @IBAction func UIButtonDog(_ sender: Any) {
+    func UIButtonDog(_ sender: Any) {
         animalVoiceLabel.text = "Woof"
         animalVoiceLabel.textColor = .brown
     }
     
-    @IBAction func UIButtonCow(_ sender: Any) {
+    func UIButtonCow(_ sender: Any) {
         animalVoiceLabel.text = "MuMu"
         animalVoiceLabel.textColor = .darkGray
     }
